@@ -1,0 +1,134 @@
+    body {
+        background-image: url(01.jpg); 
+        background-size: cover;
+        background-attachment: fixed;  
+    }    
+    .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        overflow: hidden;
+        border-radius: 15px;
+        background-color: #f3f3f3;
+        margin-top: 20px; 
+         /* width: 100%;*/
+        background: linear-gradient(to right, #fefcea, #f1da36)
+    }    
+    li {
+        float: left;
+        border-right: 1px solid #bbb;
+        width: 160px;
+    }
+    li:last-child {
+        border-right: 
+    }
+    .prisijungti {
+        text-align: right;
+}
+    li a {
+        display: block;
+        color: #666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover:not(.active) {
+        background-color: #FADBD8;  
+    }
+    li a.active {
+        color: white;
+        background-color: #F1948A;
+    }
+    .tekstas {
+        min-height: 300px;
+        font-size: 20px;
+        font-family: monospace;
+        font-style: italic;
+    /* font-stretch: semi-condensed; */
+        font-weight: bolder;
+        color: black;
+        border: 2px solid white;
+        border-radius: 15px;
+        margin-top: 15px;
+        background-color: azure;
+        opacity: 0.7;
+        padding: 30px;
+        text-align: justify;
+    }
+    .footer {
+        text-align: right;
+        padding: 10px 20px 20px 10px;
+        font-family: cursive;  
+        vertical-align: baseline;
+}
+    .input-color {
+        background-color: floralwhite;
+}
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+}
+    .wrapper > * {
+            border: 1px solid grey;
+            flex: 1 100%;
+        }
+    .forma_2, .forma_1 {
+        padding: 20px;
+        border: 2px double red;
+        width: 400px;
+        height: 220px;
+}
+.image-back-pienas {
+    background: url(pieno.jpg);
+    background-size: cover;
+    background-attachment: fixed;  
+}
+.receptai_background {
+    background: url(receptai.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.prisijungti_background {
+    background: url(prisijungti.jpg);
+    background-size: cover;
+    background-attachment: fixed;  
+}
+.saldumynai_background {
+    background: url(saldumynai.jpg);
+    background-size: cover;
+    background-attachment: fixed;  
+}
+.logo-mamaistas {
+    background: url(mamaistas-00.png);
+    border-radius: 15px;
+    width: 180px;
+    height: 70px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.search-bar {
+    width: 318px;
+    height: 45px;
+    border-radius: 10px; 
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    font-size: 15px;
+}
+.button-search {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: mistyrose;
+    margin: 0px;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: italic;
+}
+.pieno_produktas1, .pieno_produktas2, .pieno_produktas3 {
+    position: relative;
+}
+.baltas-tekstas-ant-juodo {
+    color: white;
+}
